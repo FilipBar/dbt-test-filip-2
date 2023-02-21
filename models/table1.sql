@@ -2,4 +2,4 @@
     materialized="table"
 ) }}
 
-SELECT * FROM {{source('in.c-dbt_jaffle_shop','raw_customers')}} -- použivat sources!
+SELECT "id","first_name" FROM {{source('in.c-dbt_jaffle_shop','raw_customers')}} -- použivat sources!
