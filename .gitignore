@@ -50,3 +50,6 @@ models/_sources
 dbt_packages
 profiles.yml
 logs
+
+*.log
+*.code-workspace
