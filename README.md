@@ -28,9 +28,9 @@ Try running the following commands:
   echo $DBT_KBC_TARGET_DBT_TEST_FILIP_2_WAREHOUSE
 
 
-  dbt debug -t target_dbt_test_filip_2 --profiles-dir .
+dbt debug -t target_dbt_test_filip_2 --profiles-dir .
 
-
+dbt run -t target_dbt_test_filip_2 --profiles-dir .
 
   set DBT_KBC_TARGET_DBT_TEST_FILIP_2_TYPE=snowflake
   set DBT_KBC_TARGET_DBT_TEST_FILIP_2_SCHEMA=WORKSPACE_535254391
