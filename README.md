@@ -46,3 +46,6 @@ kbc dbt <nazev projektu>
 -- mužu smazat všechny sources kromě kterých používám 
 
 kbc dbt generate sources ( vrátí znovu všechny sources )
+
+
+https://help.keboola.com/transformations/dbt/cli/ 
