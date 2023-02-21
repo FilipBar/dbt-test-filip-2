@@ -43,7 +43,7 @@ kbc --version
 
 kbc dbt <nazev projektu>
 
--- mužu smazat všechny sources kromě kterých používám 
+-- mužu smazat všechny sources kromě kterých používám ( sources )
 
 kbc dbt generate sources ( vrátí znovu všechny sources )
 
@@ -53,9 +53,10 @@ https://help.keboola.com/transformations/dbt/cli/
 
 
 2. dát sources do ignore 
- - variables a sources se vztahují puze k localu
+ - variables a sources se vztahují pouze k localu - pro keboolu je nutno vymazat
 
 dbt_profiles - examples !!! smazat
+ nahradit složkou a typem materializace (např.: beers: table)
 
 
 bacha na "_timestamp" 
