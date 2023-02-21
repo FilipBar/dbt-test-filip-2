@@ -55,3 +55,5 @@ logs
 *.code-workspace
 
 /models/_sources
+/dbt-test-filip-2.code-workspace
+/sqltools_20230220151910_5572.log
