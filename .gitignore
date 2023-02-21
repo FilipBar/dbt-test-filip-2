@@ -45,7 +45,7 @@ Thumbs.db
 .vscode
 
 # dbt part
-models/_sources
+#models/_sources
 .user.yml
 dbt_packages
 profiles.yml
