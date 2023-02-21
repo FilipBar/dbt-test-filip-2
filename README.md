@@ -49,3 +49,27 @@ kbc dbt generate sources ( vrátí znovu všechny sources )
 
 
 https://help.keboola.com/transformations/dbt/cli/ 
+
+
+
+2. dát sources do ignore 
+ - variables a sources se vztahují puze k localu
+
+dbt_profiles - examples !!! smazat
+
+
+bacha na "_timestamp" 
+
+
+
+
+ version: 2
+sources:
+    - name: in.c-dbt_jaffle_shop
+      freshness:
+        warn_after:
+            count: 1
+            period: day
+      database: '{{ env_var("DBT_KBC_TARGET_DBT_TEST_FILIP_2_DATABASE") }}' -- místo téhle veci KEBOOLA_{cislo projektu} -- 3560
+      schema: in.c-dbt_jaffle_shop
+      loaded_at_field: '"_timestamp"'
