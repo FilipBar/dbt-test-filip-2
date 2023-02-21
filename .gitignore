@@ -53,3 +53,5 @@ logs
 
 *.log
 *.code-workspace
+
+/models/_sources
