@@ -42,3 +42,7 @@ dbt init <nazev projektu>
 kbc --version
 
 kbc dbt <nazev projektu>
+
+-- mužu smazat všechny sources kromě kterých používám 
+
+kbc dbt generate sources ( vrátí znovu všechny sources )
