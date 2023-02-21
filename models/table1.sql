@@ -1,1 +1,1 @@
-SELECT * FROM "KEBOOLA_3560"."WORKSPACE_535254391"."raw_customers"
+SELECT * FROM {{source('in.c-dbt_jaffle_shop','raw_customers')}}
