@@ -14,8 +14,16 @@ models:
       - name: id
         description: This is a unique identifier for the event
         tests:
-          - unique
-          - not_null
+          - unique:
+              config:
+              severity: error
+              error_if: ">1000"
+              warn_if: ">100"
+          - not_null:
+              config:
+              severity: error
+              error_if: ">1000"
+              warn_if: ">100"
 
   - name: orders
     description: This table contains orders :)
@@ -24,5 +32,13 @@ models:
       - name: id
         description: This is a unique identifier for the event
         tests:
-          - unique
-          - not_null
+          - unique:
+              config:
+              severity: error
+              error_if: ">1000"
+              warn_if: ">100"
+          - not_null:
+              config:
+              severity: error
+              error_if: ">1000"
+              warn_if: ">100"
