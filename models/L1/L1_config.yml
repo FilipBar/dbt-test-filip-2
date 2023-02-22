@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: join_table1
+    description: This table contains orders and customers :)
+    
+  - name: table2
+    description: This table contains super new id :)
+
+  - name: customers
+    description: This table contains customers :)
+
+    columns:
+      - name: id
+        description: This is a unique identifier for the event
+        tests:
+          - unique
+          - not_null
+
+  - name: orders
+    description: This table contains orders :)
+
+    columns:
+      - name: id
+        description: This is a unique identifier for the event
+        tests:
+          - unique
+          - not_null
