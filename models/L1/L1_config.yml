@@ -24,6 +24,14 @@ models:
                 severity: error
                 error_if: ">1000"
                 warn_if: ">100"
+      - name: '"first_name"'
+        description: This is a name
+        tests:
+          - unique:
+              config:
+                severity: error
+                error_if: ">100"
+                warn_if: ">5"
 
   - name: orders
     description: This table contains orders :)
