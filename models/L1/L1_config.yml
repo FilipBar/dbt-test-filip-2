@@ -11,7 +11,7 @@ models:
     description: This table contains customers :)
 
     columns:
-      - name: id
+      - name: '"id"'
         description: This is a unique identifier for the event
         tests:
           - unique:
@@ -29,7 +29,7 @@ models:
     description: This table contains orders :)
 
     columns:
-      - name: id
+      - name: '"id"'
         description: This is a unique identifier for the event
         tests:
           - unique:
