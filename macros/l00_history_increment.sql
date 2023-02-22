@@ -81,7 +81,7 @@
     {{ log(" REVOLT-BI Message:  Load Type: " ~ value_list) }}
 
     {% if value_list['data']|length == 0 %}
-      {% set load_type = 'FULL' %}  
+      {% set load_type = 'INCR' %}  
       {{ log(" REVOLT-BI Message:  Load type was assigned automaticaly!!! (FULL , INCR) - check table DWH_RAW_QA.MAINTENANCE.DAILY_RAW_LOAD ") }}
     {% else %}
       {% set load_type = value_list['data'][0][0]|upper %}

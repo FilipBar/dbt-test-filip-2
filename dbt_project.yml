@@ -34,3 +34,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dbt_test_filip_2_init:
     # Config indicated by + and applies to all files under models/example/
+    L1: 
+      materialized: table
+    L2: 
+      materialized: table
