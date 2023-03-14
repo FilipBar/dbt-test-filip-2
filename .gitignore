@@ -48,8 +48,8 @@ Thumbs.db
 models/_sources
 .user.yml
 dbt_packages
-profiles.yml
-packages.yml
+/profiles.yml
+/packages.yml
 logs
 
 *.log
