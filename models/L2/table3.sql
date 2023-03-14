@@ -1,0 +1,1 @@
+SELECT *,"id" + 10000 AS "new_id2" FROM {{ref('join_table1')}}
