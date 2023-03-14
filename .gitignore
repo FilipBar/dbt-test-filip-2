@@ -49,7 +49,6 @@ models/_sources
 .user.yml
 dbt_packages
 /profiles.yml
-/packages.yml
 logs
 
 *.log
